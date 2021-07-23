@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Study</title>
+    <!-- * aplicará o estilo a qualquer elemento HTML. * -->
+    <style>
+
+        *{ 
+            margin: 0px auto;
+            padding: 0px!important;
+        }
+        #tmain{
+            height: 616px;
+            width: 996px;
+        }
+
+        td{
+            border: 1px solid black;
+        }
+
+        #banner{
+            height: 10%;
+        }
+
+        #botoes{
+            width: 10%;
+        }
+
+        #texto{
+            width: 30%;
+        }
+
+        #videos{
+            width: 60%;
+        }
+
+        #tsec{
+            width: 100%;
+            height: 100%;
+        }
+
+        iframe{
+            width: 100%;
+            height: 100%;
+        }
+
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: fill;
+            align-self: center;
+            padding: 0%;
+        }
+    </style>
+</head>
+<body>
+    <table id="tmain">
+       <tr>
+           <td id="banner" colspan="3">
+               <img src="imgBanner.jpg" alt="">
+           </td>
+       </tr> 
+       <tr>
+            <td id="botoes">
+                <a href="https://www.afesu.org.br/como-ajudar/seja-um-doador/?gclid=EAIaIQobChMIsJ7Ot4Hz8QIVyAmRCh2d-wbvEAAYASAAEgJ3tfD_BwE" target="_blank">BOTÃO 1</a>
+                <a href="https://cerene.org.br/doeagora/?gclid=EAIaIQobChMIwvGzvYHz8QIVg5yGCh2BzwSwEAAYAyAAEgI5Z_D_BwE" target="_blank">BOTÃO 2</a>
+                <a href="http://www.prosangue.sp.gov.br/artigos/requisitos_basicos_para_doacao.html" target="_blank">BOTÃO 3</a>
+            </td>
+            <td id="texto">O sangue é um composto de células que cumprem funções como levar oxigênio a cada parte do nosso corpo, defender nosso organismo contra infecções e participar na coagulação. Não existe nada que substitua o sangue.
+                A quantidade de sangue retirada não afeta a sua saúde porque a recuperação é imediatamente após a doação. Uma pessoa adulta tem em média cinco litros de sangue e em uma doação são coletados no máximo 450ml de sangue. É pouco para você e muito para quem precisa! Você passará por uma entrevista que tem o objetivo de dar maior segurança para você e aos pacientes que receberão o seu sangue. Todo sangue doado é separado em diferentes componentes (hemácias, plaquetas e plasma) e assim poderá beneficiar mais de um paciente com apenas uma unidade coletada. Os componentes são distribuídos para os hospitais para atender aos casos de emergência e aos pacientes internados.</td>
+            <td id="videos">
+                <table id="tsec">
+                    <tr>
+                        <td> <iframe src="https://www.youtube.com/embed/HRPoREa6r6s" frameborder="0"></iframe></td>
+                        <td><iframe src="https://www.youtube.com/embed/T6UXf8xFFUk" frameborder="0"></iframe></td>
+                    </tr>
+                    <tr>
+                        <td><iframe src="https://www.youtube.com/embed/907ws2kX4Zo" frameborder="0"></iframe></td>
+                        <td><iframe src="https://www.youtube.com/embed/P7Xvqam2Kh0" frameborder="0"></iframe></td>
+                    </tr>
+                </table>
+            </td>
+      </tr>
+    </table>
+</body>
+</html>
